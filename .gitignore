@@ -1,0 +1,6 @@
+Doxyfile
+*.o
+*.a
+compile_commands.json
+.clangd/*
+.cache/*
