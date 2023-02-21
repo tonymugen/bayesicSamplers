@@ -27,12 +27,11 @@
  *
  */
 
-#ifndef danuts_hpp
-#define danuts_hpp
+#pragma once
 
 #include <vector>
 
-#include "../bayesicUtilities/utilities.hpp"
+#include "../bayesicUtilities/include/utilities.hpp"
 #include "model.hpp"
 #include "sampler.hpp"
 
@@ -251,5 +250,4 @@ namespace BayesicSpace {
 
 }
 
-#endif /* danuts_hpp */
 

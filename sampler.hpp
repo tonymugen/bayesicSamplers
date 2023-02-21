@@ -27,10 +27,9 @@
  *
  */
 
-#ifndef sampler_hpp
-#define sampler_hpp
+#pragma once
 
-#include "../bayesicUtilities/random.hpp"
+#include "../bayesicUtilities/include/random.hpp"
 
 namespace BayesicSpace {
 	/** \brief Sampler abstract base class
@@ -59,6 +58,5 @@ namespace BayesicSpace {
 	};
 }
 
-#endif /* smapler_hpp */
 
 

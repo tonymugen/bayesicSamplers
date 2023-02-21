@@ -37,7 +37,7 @@
 #include <cmath>
 #include <cstring>
 
-#include "../bayesicUtilities/random.hpp"
+#include "../bayesicUtilities/include/random.hpp"
 #include "danuts.hpp"
 
 using namespace BayesicSpace;
