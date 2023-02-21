@@ -61,7 +61,7 @@ int16_t SamplerMetro::adapt(){
 	double lAlpha = model_->logPost(thetaPrime) - model_->logPost(*theta_);
 	double lU     = log( rng_.runifnz() );
 	if (lU < lAlpha) {
-		(*theta_) = move(thetaPrime);
+		(*theta_) = std::move(thetaPrime);
 		return 1;
 	} else {
 		return 0;
@@ -76,7 +76,7 @@ int16_t SamplerMetro::update(){
 	double lAlpha = model_->logPost(thetaPrime) - model_->logPost(*theta_);
 	double lU     = log( rng_.runifnz() );
 	if (lU < lAlpha) {
-		(*theta_) = move(thetaPrime);
+		(*theta_) = std::move(thetaPrime);
 		return 1;
 	} else {
 		return 0;

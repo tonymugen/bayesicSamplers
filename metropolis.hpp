@@ -28,12 +28,11 @@
  *
  */
 
-#ifndef metropolis_hpp
-#define metropolis_hpp
+#pragma once
 
 #include <vector>
 
-#include "../bayesicUtilities/random.hpp"
+#include "../bayesicUtilities/include/random.hpp"
 #include "model.hpp"
 #include "sampler.hpp"
 
@@ -99,4 +98,3 @@ namespace BayesicSpace {
 		double incr_;
 	};
 }
-#endif //metropolis_hpp
